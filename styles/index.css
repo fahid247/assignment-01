@@ -48,6 +48,7 @@ nav{
     height: 328px;
     margin: 116px auto;
     justify-content: space-between;
+    
 }
 .leftside{
     width: 517px;
@@ -70,16 +71,51 @@ nav{
     width: 403px;
     height: 328px;
 }
-.productive-user{
+.productive-users{
+    background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
     height: 306px;
-    margin: 120px auto;
-    background-color: rgba(78, 71, 255, 0.1);
-    display: flex;
+    margin: 0px auto;
+    padding: 50px 142px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    
 }
-.user-number{
-    display: flex;
+.user-container{
+    
+    width: 856px;
+    height: 206px;   
 }
+.title{
+    
+    width: 100%;
+    height: 45px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+.users{
+    
+    width: 100%;
+    height: 121px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.numbers{
+    font-family: 'Inter';
+    font-size: 80px;
+    font-weight: bold;
+    
+    margin: 0px;
+}
+.type{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
 
 /* shared styles */
 .color01{
