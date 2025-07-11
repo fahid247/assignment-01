@@ -179,6 +179,36 @@ nav{
     color:rgb(56, 54, 54,0.5) ;
     font-size: 10px;
 }
+.focus{
+    width: 1140px;
+    height: 697px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: block;
+    justify-items: center;
+    background-color: white;
+}
+.focus-heading{
+    color: black;
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: bold;
+    margin: 71px auto 20px;
+}
+.des{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Raleway';
+}
+.getstarted{
+    height: 48px;
+    width: 195px;
+    margin: 20px;
+}
+.big{
+    border-radius: 48px;
+    width: 840px;
+    height: 365px;
+}
 
 
 /* shared styles */
