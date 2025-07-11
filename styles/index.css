@@ -259,7 +259,35 @@ label{
     font-size: 18px;
     font-weight:500;
 }
+footer{
+    height: 428px;
+    background-color: white;
+}
+.foot-container{
+    width: 531px;
+    height: 221px;
+    margin: 103px auto;
+}
 
+.foot-title{
+    
+    margin: 0px auto;
+    width: 291px;
+    height: 121px;
+    font-size: 100px;
+    font-family: 'Inter';
+    font-weight: 900;
+}
+.foot-bar{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Raleway';
+    font-size: smaller;
+}
 /* shared styles */
 .color01{
     color: #4E47FF;
