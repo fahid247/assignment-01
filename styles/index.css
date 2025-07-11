@@ -1,0 +1,107 @@
+
+header{
+    background-image: url(../Assets/Hero-bg.png) ;
+    height: 97vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    font-family:'Inter';
+    align-items: center;
+}
+
+.name{
+    font-family:'Inter';
+    font-size: 34px;
+    font-weight: 900;
+}
+.sign-up{
+    height: 48px;
+    width: 132px;
+}
+.banner{
+    height: 237px;
+    width: 905px;
+    margin: 158px auto;
+}
+.banner h1{
+    font-family: 'Raleway';
+    font-size: 65px;
+    font-weight: bold;
+    width: 905px;
+    height: 152px;
+    text-align: center;
+    color: #252432;
+    
+}
+.button-container{
+    margin-bottom: 152px;
+}
+.sf-button{
+    height: 48px;
+    width: 174px;
+}
+.action{
+    display: flex;
+    width: 1140px;
+    height: 328px;
+    margin: 116px auto;
+    justify-content: space-between;
+}
+.leftside{
+    width: 517px;
+    height: 203px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-description{
+    color: rgba(36, 37, 50, 0.50);
+    font-size: 24px;
+}
+.LLp-btn{
+    width: 229px;
+    height: 48px;
+}
+.wc-mini{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+.productive-user{
+    width: 1140px;
+    height: 306px;
+    margin: 120px auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    display: flex;
+}
+.user-number{
+    display: flex;
+}
+
+/* shared styles */
+.color01{
+    color: #4E47FF;
+}
+.color02{
+    color:#252432 ;
+}
+.R{
+    font-family: 'Raleway';
+}
+.btn{
+    background-color:#4E47FF ;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
