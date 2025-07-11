@@ -1,4 +1,6 @@
-
+body{
+    background-color: aliceblue;
+}
 header{
     background-image: url(../Assets/Hero-bg.png) ;
     height: 97vh;
@@ -232,9 +234,7 @@ nav{
     align-items: center;
     width: 50%;
 }
-.cm{
-    
-}
+
 input[type="text"],input[type="email"]{
     width: 497px;
     height: 70px;
@@ -262,11 +262,16 @@ label{
 footer{
     height: 428px;
     background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .foot-container{
     width: 531px;
     height: 221px;
-    margin: 103px auto;
+    
+    /* margin: 103px auto; */
 }
 
 .foot-title{
