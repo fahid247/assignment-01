@@ -250,9 +250,14 @@ textarea{
     border: none;
     margin-top: 5px;
 }
+
 .submit{
     width: 497px;
     height: 62px;
+    transition: 0.8s ease;
+}
+.submit:hover{
+    background-color: burlywood;
 }
 label{
     font-family: 'Inter';
@@ -311,8 +316,14 @@ a{
     font-weight: bold;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+    transition: 0.8s ease;
     
 }
+button:hover{
+    background-color: burlywood;
+}
+
 .center{
     justify-content: center;
     align-items: center;
