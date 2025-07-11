@@ -209,7 +209,56 @@ nav{
     width: 840px;
     height: 365px;
 }
+.get-in-touch{
+    width: 1140px;
+    height: 632px;
+    margin: 0px auto;
+    display: flex;
+}
+.column1{
+    width: 50%;
 
+}
+.column1,h1{
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 97px;
+    display:flex ;
+    align-items: center;
+}
+.column2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.cm{
+    
+}
+input[type="text"],input[type="email"]{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 19px;
+}
+
+textarea{
+    border-radius: 10px;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-top: 5px;
+}
+.submit{
+    width: 497px;
+    height: 62px;
+}
+label{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight:500;
+}
 
 /* shared styles */
 .color01{
